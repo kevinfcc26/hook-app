@@ -12,12 +12,14 @@ import "./index.css";
 // import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 // import { CounterApp } from './01-useState/CounterApp'
 // import { HooksApp } from './HooksApp'
-import { Padre } from "./07-tarea/Padre";
-import "./08-useReducer/intro-reducer";
+// import { Padre } from "./07-tarea/Padre";
+// import "./08-useReducer/intro-reducer";
+import { TodoApp } from "./08-useReducer/TodoApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
+    {/* <Padre /> */}
     {/* <CallbackHook /> */}
     {/* <MemoHook /> */}
     {/* <Memorize /> */}
