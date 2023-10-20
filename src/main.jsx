@@ -19,8 +19,8 @@ import { BrowserRouter } from "react-router-dom";
 import { MainApp } from "./09-useContext/MainApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter>
       <MainApp />
       {/* <TodoApp /> */}
       {/* <Padre /> */}
@@ -35,6 +35,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       {/* <CounterWithCustomHook /> */}
       {/* <CounterApp /> */}
       {/* <HooksApp /> */}
-    </React.StrictMode>
-  </BrowserRouter>
+    </BrowserRouter>
+  </React.StrictMode>
 );
